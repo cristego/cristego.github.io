@@ -1,7 +1,7 @@
 ---
 published: true
 layout: post
-date: '2018-012-31T00:00:28.000Z'
+date: 2018-12-28 00:00:28
 categories: a
 permalink: '/:categories/:year/:title.html'
 ---
