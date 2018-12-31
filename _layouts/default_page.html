@@ -1,0 +1,23 @@
+<!doctype html>
+<html>
+{% include head.html %}
+<body>
+<header>
+<div id="siteLogo">
+<!-- <h1><a href="{{ site.url }}">c p</a></h1> -->
+<a href="{{ site.url }}"><img id="logo_img" src="{{ "/media/cp_logo.png" | prepend: site.url }}"></img></a>
+</div>
+<div id="nav_header">
+<ul>
+{% for page in site.pages_list %}
+  <li id="nav_separator"><a href="{{ page[1]  | prepend: site.url }}">{{ page[0] }}</a></li>
+{% endfor %}
+</ul>
+</div>
+</header>
+<div id="container">
+{{ content }}
+</div> <!-- end of #container -->
+{% include footer.html %}
+</body>
+</html>

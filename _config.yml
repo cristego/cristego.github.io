@@ -1,0 +1,25 @@
+# Site settings
+title: christianpopa.com
+email: "hi@christianpopa.com"
+description: > # this means to ignore newlines until "baseurl:"
+  cp
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "http://cristego.github.io" #christianpopa.com
+
+# Build settings
+markdown: kramdown
+kramdown:
+  input: GFM # Enable GitHub Flavored Markdown (fenced code blocks)
+  hard_wrap: false
+highlighter: rouge
+
+excerpt_separator: <!--End of Excerpt-->
+
+pages_list:
+  About: '/ab'
+  Articles: '/'
+
+paginate: 5
+paginate_path: "/a/page:num/"
+
+plugins: [jekyll-paginate]
