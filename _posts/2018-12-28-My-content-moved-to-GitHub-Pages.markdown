@@ -8,6 +8,7 @@ permalink: '/:categories/:year/:title.html'
 ---
 Today a big change happened. The content hosting for this blog moved to GitHub pages.
 <!--End of Excerpt--> 
+
 **You may ask WHY?**
 
 Very simple. Flexibility and mobility. 
