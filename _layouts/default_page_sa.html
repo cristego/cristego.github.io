@@ -2,6 +2,15 @@
 <html>
 {% include head.html %}
 <body>
+<header>
+<div id="nav_header">
+<ul>
+{% for page in site.pages_list %}
+  <li id="nav_separator"><a href="{{ page[1]  | prepend: site.url }}">{{ page[0] }}</a></li>
+{% endfor %}
+</ul>
+</div>
+</header>
 <div id="container">
 {{ content }}
 </div> <!-- end of #container -->
