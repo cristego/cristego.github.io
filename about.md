@@ -18,4 +18,4 @@ very interested in photography. You can find some of my attempts to paint with l
 
 # colophon
 
-This internet web site is hand made with HTML, CSS and some JavaScript. The content is powered by [Jekyll](https://jekyllrb.com/){:target="_blank"} and hosted on [GitHub Pages](https://pages.github.com/){:target="_blank"}.
+This blog is hand made with HTML, CSS and some JavaScript. The content is powered by [Jekyll](https://jekyllrb.com/){:target="_blank"} and hosted on [GitHub Pages](https://pages.github.com/){:target="_blank"}.
