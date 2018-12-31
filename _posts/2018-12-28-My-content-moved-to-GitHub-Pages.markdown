@@ -12,4 +12,4 @@ Today a big change happened. The content hosting for this blog moved to GitHub p
 **You may ask WHY?**
 
 Very simple. Flexibility and mobility. 
-Now I can add and manage the content from anywhere using [prose.io](https://prose.io) or any machine that supports [git](https://en.wikipedia.org/wiki/Git).
+Now I can add and manage the content from anywhere using [prose.io](https://prose.io){:target="_blank"} or any machine that supports [git](https://en.wikipedia.org/wiki/Git){:target="_blank"}.
