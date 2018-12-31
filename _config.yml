@@ -4,7 +4,7 @@ email: "hi@christianpopa.com"
 description: > # this means to ignore newlines until "baseurl:"
   cp
 baseurl: "" # the subpath of your site, e.g. /blog/
-url: "http://cristego.github.io" #christianpopa.com
+url: "https://cristego.github.io" #christianpopa.com
 
 # Build settings
 markdown: kramdown
