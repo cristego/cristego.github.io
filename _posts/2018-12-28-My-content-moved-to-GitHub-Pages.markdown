@@ -8,6 +8,7 @@ permalink: '/:categories/:year/:title.html'
 ---
 Today a big change happened. The content hosting for this blog moved to GitHub pages.
 <!--End of Excerpt--> 
-# You may ask WHY?
+**You may ask WHY?**
 
-Very simple. Flexibility and mobility. Now I can add and manage the content from anwhere using [prose.io](https://prose.io).
+Very simple. Flexibility and mobility. 
+Now I can add and manage the content from anywhere using [prose.io](https://prose.io) or any machine that supports [git](https://en.wikipedia.org/wiki/Git).
