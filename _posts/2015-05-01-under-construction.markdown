@@ -7,5 +7,4 @@ permalink: /:categories/:year/:title.html
 ---
 
 This site is under construction. The content<!--End of Excerpt--> creation process is still ongoing.
-
 Hence please be patient for another while and stay tuned.
