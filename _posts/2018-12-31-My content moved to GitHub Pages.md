@@ -9,5 +9,4 @@ Today a big change happened. The content hosting for this blog moved to GitHub p
 
 ##You amy ask WHY?
 
-Very simple. Flexibility and mobility. Now I can add and manage the content from anwhere using [prose.io](https://prose.io). 
-
+Very simple. Flexibility and mobility. Now I can add and manage the content from anwhere using [prose.io](https://prose.io).
