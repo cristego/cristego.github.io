@@ -6,7 +6,7 @@ date: 2019-01-01T00:00:28.000Z
 categories: a
 permalink: '/:categories/:year/:title.html'
 ---
-Today a big change happened. The content hosting for this blog moved to GitHub pages.
+Today a big change happened. The content hosting for this blog moved to [GitHub Pages](https://pages.github.com/){:target="_blank"}.
 <!--End of Excerpt--> 
 
 **You may wonder WHY?**
