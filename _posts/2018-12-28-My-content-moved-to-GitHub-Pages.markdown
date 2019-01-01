@@ -2,7 +2,7 @@
 published: true
 layout: post
 title: My content moved to GitHub Pages
-date: {}
+date: 2019-01-01T00:00:28.000Z
 categories: a
 permalink: '/:categories/:year/:title.html'
 ---
