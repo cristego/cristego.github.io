@@ -9,7 +9,7 @@ articles_url: "https://cristego.github.io/articles" #url path for artiles
 
 # Build settings
 
-# Local build destination path
+# Local build destination path / pls comment out before pushing to production
 #destination: /Users/christian/Documents/Web Projects/JEKYLLprojects/test_GitHUb/
 
 markdown: kramdown
