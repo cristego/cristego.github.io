@@ -1,6 +1,6 @@
 ---
 layout: default_page
-title: Blog
+title: Articles
 permalink: /articles/
 ---
 
