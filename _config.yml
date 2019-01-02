@@ -3,7 +3,7 @@ title: christianpopa.com
 email: "hi@christianpopa.com"
 description: > # this means to ignore newlines until "baseurl:"
   cp
-baseurl: "/articles/" # the subpath of your site, e.g. /blog/
+baseurl: "" # the subpath of your site, e.g. /blog/
 url: "https://cristego.github.io" #christianpopa.com
 articles_url: "https://cristego.github.io/articles" #url path for artiles
 
