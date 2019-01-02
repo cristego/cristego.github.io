@@ -8,7 +8,8 @@ url: "https://cristego.github.io" #christianpopa.com
 articles_url: "https://cristego.github.io/articles" #url path for artiles
 
 # Build settings
-#local build destination
+
+# Local build destination
 #destination: /Users/christian/Documents/Web Projects/JEKYLLprojects/test_GitHUb/
 
 markdown: kramdown
