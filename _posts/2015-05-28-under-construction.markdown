@@ -2,7 +2,7 @@
 layout: post
 title:  "Under Construction"
 date:   2015-05-28 00:00:28
-categories: a
+categories: 
 permalink: /articles/:categories/:year/:title.html
 ---
 

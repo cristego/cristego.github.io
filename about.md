@@ -1,7 +1,7 @@
 ---
 layout: page_about
 title: About
-permalink: /ab/
+permalink: /about/
 published: true
 ---
 

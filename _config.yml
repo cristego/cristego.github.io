@@ -8,6 +8,9 @@ url: "https://cristego.github.io" #christianpopa.com
 articles_url: "https://cristego.github.io/articles" #url path for artiles
 
 # Build settings
+#local build destination
+#destination: /Users/christian/Documents/Web Projects/JEKYLLprojects/test_GitHUb/
+
 markdown: kramdown
 kramdown:
   input: GFM # Enable GitHub Flavored Markdown (fenced code blocks)
@@ -17,10 +20,10 @@ highlighter: rouge
 excerpt_separator: <!--End of Excerpt-->
 
 pages_list:
-  About: '/ab'
+  About: '/about'
   Articles: '/articles'
 
 paginate: 5
-paginate_path: "/articles/a/page:num/"
+paginate_path: '/articles/page:num/'
 
 plugins: [jekyll-paginate]

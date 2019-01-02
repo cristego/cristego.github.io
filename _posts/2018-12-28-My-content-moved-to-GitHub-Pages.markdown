@@ -3,7 +3,7 @@ published: true
 layout: post
 title: My content moved to GitHub Pages
 date: 2019-01-01T00:00:28.000Z
-categories: a
+categories: 
 permalink: '/articles/:categories/:year/:title.html'
 ---
 Today a big change happened. The content hosting for this blog moved to [GitHub Pages](https://pages.github.com/){:target="_blank"}.

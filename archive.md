@@ -1,7 +1,7 @@
 ---
 layout: page_archive
 title: Archive
-permalink: /ar/
+permalink: /archive/
 ---
 
 {% for post in site.posts %}
