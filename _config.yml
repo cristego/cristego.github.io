@@ -21,6 +21,6 @@ pages_list:
   Articles: '/articles'
 
 paginate: 5
-paginate_path: "/a/page:num/"
+paginate_path: "/articles/a/page:num/"
 
 plugins: [jekyll-paginate]
