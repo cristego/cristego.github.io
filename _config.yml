@@ -17,7 +17,7 @@ excerpt_separator: <!--End of Excerpt-->
 
 pages_list:
   About: '/ab'
-  Articles: '/read.html'
+  Articles: '/read'
 
 paginate: 5
 paginate_path: "/a/page:num/"
