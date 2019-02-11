@@ -4,8 +4,8 @@ email: "hi@christianpopa.com"
 description: > # this means to ignore newlines until "baseurl:"
   cp
 baseurl: "" # the subpath of your site, e.g. /blog/
-url: "https://cristego.github.io" #christianpopa.com
-articles_url: "https://cristego.github.io/articles" #url path for artiles
+url: "https://christianpopa.com" #christianpopa.com
+articles_url: "https://christianpopa.com/articles" #url path for artiles
 
 # Build settings
 

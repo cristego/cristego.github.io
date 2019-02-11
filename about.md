@@ -16,4 +16,4 @@ I am holding a degree in Information Technology. For my living I manage customer
 I live nearby Zurich, Switzerland. Since the birth of my children I became
 very interested in photography. You can find some of my attempts to paint with light on  [500px](https://500px.com/christianpopa){:target="_blank"}.
 
-This blog is hand made with HTML, CSS and some JavaScript. The content is powered by [Jekyll](https://jekyllrb.com/){:target="_blank"} and hosted on [GitHub Pages](https://pages.github.com/){:target="_blank"}.
+This blog is hand made with HTML, CSS and some JavaScript. The content is powered by [Jekyll](https://jekyllrb.com/){:target="_blank"}, with the code managed on [GitHub](https://github.com/){:target="_blank"}, deployed and hosted on [Netlify](https://netlify.com/){:target="_blank"}.
