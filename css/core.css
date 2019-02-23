@@ -360,12 +360,12 @@ footer {
   #about_img { margin: 0; margin-bottom: 40px}
 }
 
-#readmore {
-	border: 1 #6492A9;
+.readmore {
+	border: 1px solid #6492A9;
 }
 
-.readmore a {color: #919191; font-weight: 700; text-decoration: none; border: 1 #919191;}
-.readmore a:hover {color: #6492A9; transition: all 0.3s ease 0.2s; border: 1 solid #6492A9;}
+.readmore a {color: #919191; font-weight: 700; text-decoration: none; border: 1px #919191;}
+.readmore a:hover {color: #6492A9; transition: all 0.3s ease 0.2s; border: 1px solid #6492A9;}
 
 #post {
 	float: left;
