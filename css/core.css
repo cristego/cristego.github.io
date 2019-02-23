@@ -162,7 +162,7 @@ footer {
 
 #siteLogo {
 	float: left;
-	width: 40%;
+	width: 55%;
 	font-weight:900;
 	font-size: 5em;
   margin-top: 40px;
@@ -198,7 +198,7 @@ footer {
 
 #nav_header {
 	float: left;
-	width: 60%;
+	width: 45%;
 	font-weight:700;
 	text-align: right;
 	margin-left: 0;
@@ -359,6 +359,13 @@ footer {
   #logo_img {visibility: hidden; height: 0px;}
   #about_img { margin: 0; margin-bottom: 40px}
 }
+
+#readmore {
+	border: 1 #6492A9;
+}
+
+#readmore a {color: #919191; font-weight: 700; text-decoration: none; border: 1 #919191;}
+#readmore a:hover {color: #6492A9; transition: all 0.3s ease 0.2s; border: 1 solid #6492A9;}
 
 #post {
 	float: left;

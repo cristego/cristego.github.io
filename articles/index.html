@@ -11,7 +11,7 @@ title: Articles
 <p class="date">{{ post.date | date: "%Y | %b %-d" }}</p>
 <h1><a href="{{ post.url }}">{{ post.title }}</a></h1>
 <p>{{ post.excerpt | remove: '<p>' | remove: '</p>' }}</p>
-<p><a href="{{ post.url }}">read more</a></p>
+<p><a id="readmore" href="{{ post.url }}">read more</a></p>
 </div>
 {% endfor %}
 
