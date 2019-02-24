@@ -201,6 +201,7 @@ footer {
 	width: 45%;
 	font-weight:700;
 	text-align: right;
+	vertical-align: middle;
 	margin-left: 0;
 	text-transform: uppercase;
 	font-size: 1.5em;
