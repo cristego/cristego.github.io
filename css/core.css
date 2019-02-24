@@ -364,8 +364,8 @@ footer {
 	border: 1px solid #6492A9;
 }
 
-.readmore a {color: #919191; font-weight: 700; text-decoration: none; border: 1px #919191;}
-.readmore a:hover {color: #6492A9; transition: all 0.3s ease 0.2s; border: 1px solid #6492A9;}
+.readmore a {background-color: #6492A9; color:#fff; font-weight: 700; text-decoration: none; border: 1px #919191; padding: 4px;}
+.readmore a:hover {background-color: #fff; color: #6492A9; transition: all 0.3s ease 0.3s; border: 1px solid #6492A9; padding: 4px;}
 
 #post {
 	float: left;
