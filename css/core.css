@@ -355,6 +355,11 @@ footer {
   height: auto;
 }
 
+#siteLogo img {
+  width: 400px !important;
+  height: auto;
+}
+
 @media only screen and (max-width: 800px) {
   #logo_img {visibility: hidden; height: 0px;}
   #about_img { margin: 0; margin-bottom: 40px}
