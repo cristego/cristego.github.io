@@ -361,7 +361,7 @@ footer {
 }
 
 #readmore p a {background-color: #6492A9 !important; color:#fff !important; font-weight: 700; text-decoration: none; border: 1px #919191 !important; padding: 4px;}
-#readmore p a:hover {background-color: #fff; color: #6492A9; font-weight: 700; text-decoration: none; transition: all 0.3s ease 0.3s; border: 1px solid #6492A9; padding: 4px;}
+#readmore p a:hover {background-color: #fff !important; color: #6492A9 !important; font-weight: 700; text-decoration: none; transition: all 0.3s ease 0.3s; border: 1px solid #6492A9; padding: 4px;}
 
 #post {
 	float: left;
