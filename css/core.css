@@ -360,10 +360,6 @@ footer {
   #about_img { margin: 0; margin-bottom: 40px}
 }
 
-.readmore {
-	border: 1px solid #6492A9;
-}
-
 .readmore a {background-color: #6492A9; color:#fff; font-weight: 700; text-decoration: none; border: 1px #919191; padding: 4px;}
 .readmore a:hover {background-color: #fff; color: #6492A9; transition: all 0.3s ease 0.3s; border: 1px solid #6492A9; padding: 4px;}
 
