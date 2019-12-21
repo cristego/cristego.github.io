@@ -5,15 +5,18 @@ permalink: /about/
 published: true
 ---
 
-#### Proud father, internet and technology geek and a passionate photographer.
+#### Dad. Partner. Entrepreneur.
 
 # Hi. I am Christian
 
-This is my digital playground. Still working on the content though.
+I run this blog with the intent to share my views - and only my views, thoughts and whatever else I may think is worth sharing on the wonderful internet. 
 
-I am holding a degree in Information Technology. For my living I manage customer experience and digital delivery topics in the Human Resources area for a Swiss Re:insurance company. You can find my resume on [Linkedin](https://ch.linkedin.com/in/christianpopa){:target="_blank"}.
+For my living I work with people, for people. 
+You can find my resume on [Linkedin](https://ch.linkedin.com/in/christianpopa){:target="_blank"}.
 
-I live nearby Zurich, Switzerland. Since the birth of my children I became
-very interested in photography. You can find some of my attempts to paint with light on  [500px](https://500px.com/christianpopa){:target="_blank"}.
+Outside the corporate world I am.. 
+..a proud dad and partner.
+..an entrepreneur, [making people happy with hand crafted gelato](https://eiszeit.co/){:target="_blank"}. 
 
-This blog is hand made with HTML, CSS and some JavaScript. The content is powered by [Jekyll](https://jekyllrb.com/){:target="_blank"}, with the code managed on [GitHub](https://github.com/){:target="_blank"}, deployed and hosted on [Netlify](https://netlify.com/){:target="_blank"}.
+I live nearby Zurich, Switzerland. 
+
