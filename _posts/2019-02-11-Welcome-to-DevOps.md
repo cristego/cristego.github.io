@@ -9,7 +9,7 @@ permalink: '/articles/:categories/:year/:title.html'
 This website is running on [Github](https://github.com/){:target="_blank"} and [Netlify](https://netlify.com/){:target="_blank"} and powered by [JEKYLL](https://jekyllrb.com){:target="_blank"}
 <!--End of Excerpt--> 
 
-Thois allows me to run an end to end CI/CD workflow in the cloud. 
+This allows me to run an end to end CI/CD workflow in the cloud. 
 
 Before. I had my markup files on my local machine, writing the code, compiling it, opening the ftp client, pushing my latest file versions to my webserver. 
 
