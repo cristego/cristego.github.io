@@ -6,8 +6,10 @@ date: 2019-02-11T00:00:28.000Z
 categories: 
 permalink: '/articles/:categories/:year/:title.html'
 ---
-This blog is now running on an end to end CI/CD pipeline. It is hosted on [Netlify](https://netlify.com/){:target="_blank"} where the code is deployed to, once checked in on [Github](https://github.com/){:target="_blank"}, all automatically. Is this not wonderful?
+This website is running on [Github](https://github.com/){:target="_blank"} and [Netlify](https://netlify.com/){:target="_blank"} and powered by [JEKYLL](https://jekyllrb.com){:target="_blank"}
 <!--End of Excerpt--> 
+
+Thois allows me to run an end to end CI/CD workflow in the cloud. 
 
 Before. I had my markup files on my local machine, writing the code, compiling it, opening the ftp client, pushing my latest file versions to my webserver. 
 
