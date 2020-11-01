@@ -13,7 +13,7 @@ For this digital place I wanted to have a pretty lightweight approach but still 
 
 I started with github pages, which comes with jekyll out of the box. Github also allows you to connect your github page with your custom domain. Which is perfect, since I have one. However, to make this happen it has to follow certain specs which I am sure you can find out by yourself on github. I don’t like limitations. I needed to find a better way. 
 
-Today. I use a combination of github and netlify. This removes some of the limitations I faced with the github only approach. The code is still managed on github. Once code is checked-in this automatically triggers the underlying [CI/CD](https://en.wikipedia.org/wiki/CI/CD) pipeline with netlify, which updates my content. 
+Today I use a combination of github and netlify. This removes some of the limitations I faced with the github only approach. The code is still managed on github. Once code is checked-in this automatically triggers the underlying [CI/CD](https://en.wikipedia.org/wiki/CI/CD) pipeline with netlify, which updates my content. 
 I think everyone can do this. It’s not harder than setting up a wordpress blog. If you have fun building stuff (digital!) then I suggest you give it a shot. 
 
 
