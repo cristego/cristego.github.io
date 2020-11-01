@@ -2,7 +2,7 @@
 published: true
 layout: post
 title: This is a static website
-date: 2019-02-11T00:00:28.000Z
+date: 2020-11-1T00:00:28.000Z
 categories: 
 permalink: '/articles/:categories/:year/:title.html'
 ---
