@@ -22,7 +22,7 @@ Outside the corporate world I am..
 
 .. an avid learner, hungry to learn something new every day.
 
-.. a passioned about photography and design. You can find some of my attempts to paint with light [here](https://500px.com/p/christianpopa?view=photos){:target="_blank"}.
+.. passioned about photography and design. You can find some of my attempts to paint with light [here](https://500px.com/p/christianpopa?view=photos){:target="_blank"}.
 
 I live nearby Zurich, Switzerland. 
 
