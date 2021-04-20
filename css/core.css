@@ -149,13 +149,13 @@ footer {
 }
 
 @media screen and (min-device-width: 1000px) {
-	body {max-width: 1000px; margin: 0 auto;}
-  #container {width: 90%; margin-left: 3%; margin-right: 7%;}
+	body {max-width: 600px; margin: 0 auto;}
+  #container {width: 60%; margin-left: 20; margin-right: 20;}
 /*	#container {width: 60%; margin-left: 20%; margin-right: 20%; min-height: 71%;} */
 }
 
 @media only screen and (max-width: 800px) {
-	body, header, footer, #container {width: 90%; margin-left: 3%; margin-right: 7%;}
+	body, header, footer, #container {width: 90%; margin-left: 5%; margin-right: 5%;}
 }
 
 /* Title */
