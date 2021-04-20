@@ -166,7 +166,7 @@ footer {
 	vertical-align: middle;
 	font-weight:900;
 	font-size: 5em;
-  margin-top: 40px;
+    margin-top: 40px;
 	margin-bottom: 40px;
 }
 /*
@@ -290,29 +290,6 @@ footer {
 	opacity: 0.9;
 }
 
-.twitter {
-	background: url(http://christianpopa.com/images/icons/twitter.png) no-repeat 0 50%;
-}
-
-.flickr {
-	background: url(http://christianpopa.com/images/icons/flickr.png) no-repeat 0 50%;
-}
-
-.Five100px {
-	background: url(http://christianpopa.com/images/icons/500px.png) no-repeat 0 50%;
-}
-
-.gplus {
-	background: url(http://christianpopa.com/images/icons/google+.png) no-repeat 0 50%;
-}
-
-.linkedin {
-	background: url(http://christianpopa.com/images/icons/linkedin.png) no-repeat 0 50%;
-}
-
-.xing {
-	background: url(http://christianpopa.com/images/icons/xing.png) no-repeat 0 50%;
-}
 
 /* Content */
 
@@ -431,8 +408,8 @@ footer {
 	color: #919191;
 }
 
-#post p a, #content_about p a {color: #6492A9; border-bottom: 4px solid #C8C8C8; font-weight: 700;}
-#post p a:hover, #content_about p a:hover {color: #6492A9; border-bottom: 4px solid #6492A9;}
+#post p a, #content_about p a {color: #6492A9; font-weight: 700;}
+#post p a:hover, #content_about p a:hover {color: #43697c;}
 
 #title {
 	float: left;
