@@ -112,7 +112,7 @@ a:hover {color: #6492A9; transition: all 0.3s ease 0.2s;}
 
 html, body {height: 100%;}
 
-body {background: #fff; padding-left: 10px; padding-right: 10px;}
+body {background: #fff;}
 
 header, footer, #container, #footer_content, #content, #content_about {
 	float: left;
@@ -121,7 +121,7 @@ header, footer, #container, #footer_content, #content, #content_about {
 	margin: 0 auto;
 }
 
-#container {min-height: 68%;}
+#container {min-height: 70%;}
 
 footer {
 	width:100%;
@@ -155,7 +155,7 @@ footer {
 }
 
 @media only screen and (max-width: 800px) {
-	body, header, footer, #container {width: 90%; margin-left: 5%; margin-right: 5%;}
+	body, header, footer, #container {width: 100%; padding-left: 5px; padding-right: 5px;}
 }
 
 /* Title */
@@ -410,7 +410,7 @@ footer {
 	/*font-size: 1.1em;*/
 	font-size: 1.6em;
 	letter-spacing: 1px;
-	line-height: 1.5;
+	line-height: 1.5px;
 	margin-top: 20px;
 	color: #919191;
 }
