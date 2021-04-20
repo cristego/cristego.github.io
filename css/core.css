@@ -140,17 +140,17 @@ footer {
 }
 
 @media all and (orientation:portrait) {
-	body, header, footer, #container {width: 90%; margin-left: 3%; margin-right: 7%;}
+	body, header, footer, #container {width: 100%;}
 	#container {min-height: 75%;}
 }
 
 @media all and (orientation:landscape) {
-	body, header, footer, #container {width: 90%; margin-left: 3%; margin-right: 7%;}
+	body, header, footer, #container {width: 100%;}
 }
 
 @media screen and (min-device-width: 1000px) {
 	body {max-width: 900px; margin: 0 auto;}
-  #container {width: 60%; margin-left: 20%; margin-right: 20%;}
+  #container {width: 100%;}
 /*	#container {width: 60%; margin-left: 20%; margin-right: 20%; min-height: 71%;} */
 }
 
@@ -209,7 +209,7 @@ footer {
 	border-top: 0px solid #fff;
 	margin-top: 20px;
 	margin-bottom: 40px;
-  padding-top: 70px;
+  	padding-top: 60px;
 }
 
 #nav_header li {
@@ -315,9 +315,15 @@ footer {
 	float: left;
 	width: 100%;
 	min-height: 100px;
-	text-align: left;
+	text-align: center;
 	margin-bottom: 40px;
 }
+
+#about_desc {
+	text-align: center;
+	padding-top: 2em;
+	padding-bottom: 2em;
+  }
 
 #about_img {
   margin-top: 40px;
