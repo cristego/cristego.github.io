@@ -256,14 +256,14 @@ footer {
 }
 
 #footer_content ul a {
-	color: #6492A9;
+	color: #575757;
 	letter-spacing: 0.5px;
 	font-weight: 700;
 }
 
 
 #footer_content ul a:hover {
-	color: #C1D3DD;
+	color: #6492A9;
 }
 
 .copyright {
@@ -387,7 +387,7 @@ footer {
 	text-transform: uppercase;
 }
 
-#post h2 a:hover, #content_about h2 a:hover {color: #575757;}
+#post h2 a:hover, #content_about h2 a:hover {color: #6492A9;}
 
 #post h4, h4 {
 	color: #6492A9;
@@ -408,8 +408,8 @@ footer {
 	color: #919191;
 }
 
-#post p a, #content_about p a {color: #6492A9; font-weight: 700;}
-#post p a:hover, #content_about p a:hover {color: #575757;}
+#post p a, #content_about p a {color: #575757; font-weight: 700;}
+#post p a:hover, #content_about p a:hover {color: #6492A9;}
 
 #title {
 	float: left;
