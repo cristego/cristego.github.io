@@ -281,6 +281,7 @@ footer {
 @media only screen and (max-width: 800px) {
 	.copyright li {padding-left: 0px; padding-right: 0px; display: block;}
 	#footer_content {padding-bottom: 30px;}
+	#about_img, #about_desc {text-align: left;}
 }
 
 .twitter, .flickr, .Five100px, .gplus, .linkedin, .xing {
