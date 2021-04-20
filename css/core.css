@@ -387,7 +387,7 @@ footer {
 	text-transform: uppercase;
 }
 
-#post h2 a:hover, #content_about h2 a:hover {color: #6492A9;}
+#post h2 a:hover, #content_about h2 a:hover {color: #575757;}
 
 #post h4, h4 {
 	color: #6492A9;
@@ -409,7 +409,7 @@ footer {
 }
 
 #post p a, #content_about p a {color: #6492A9; font-weight: 700;}
-#post p a:hover, #content_about p a:hover {color: #C1D3DD;}
+#post p a:hover, #content_about p a:hover {color: #575757;}
 
 #title {
 	float: left;
