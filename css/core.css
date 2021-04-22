@@ -595,8 +595,12 @@ section#card li a:hover {
 		padding-bottom: 30px;
 	}
 
-	#about_img, #about_desc {
+	#about_img, .about_desc {
 		text-align: left;
+	}
+
+	.about_desc {
+		padding-bottom: 2em;
 	}
 }
 
