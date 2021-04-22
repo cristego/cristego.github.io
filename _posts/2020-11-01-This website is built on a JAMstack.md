@@ -6,7 +6,7 @@ date: 2020-11-01T00:00:28.000Z
 categories: 
 permalink: '/articles/:categories/:year/:title.html'
 ---
-This digital playground is built on a [JAMstack](https://jamstack.org){:target="_blank"} powered by [Github](https://github.com/){:target="_blank"}, [Netlify](https://netlify.com/){:target="_blank"} and [JEKYLL](https://jekyllrb.com){:target="_blank"}. 
+This digital playground is built on a [JAMstack](https://jamstack.org){:target="_blank"} powered by [Github](https://github.com/){:target="_blank"}, [Netlify](https://netlify.com/){:target="_blank"} and [Jekyll](https://jekyllrb.com){:target="_blank"}. 
 
 There are many ways to build a website. 
 
