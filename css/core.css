@@ -818,7 +818,10 @@ nav a:hover {
 
 	nav a {
 		opacity: 1;
-		transition: opacity 0ms ease-in-out;
+	}
+
+	.nav-toggle:checked ~ nav {
+		transform: scale(1, 0);
 	}
 
 }
