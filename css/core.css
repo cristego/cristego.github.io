@@ -330,19 +330,17 @@ footer {
 
 .about_desc {
 	text-align: center;
-	padding-top: 2em;
-	padding-bottom: 2em;
+	padding-top: 5em;
+	padding-bottom: 5em;
 
   }
 
-.about_desc h2 {
+.about_desc {
 	color: #6492A9;
 	font-weight: 700;
 	font-size: 3.0em;
 	letter-spacing: 0.5px;
 	text-transform: uppercase;
-	margin-top: 20px;
-	margin-bottom: 40px;
 }
 
 
