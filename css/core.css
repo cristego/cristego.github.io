@@ -820,9 +820,6 @@ nav a:hover {
 		opacity: 1;
 	}
 
-	.nav-toggle:checked ~ nav {
-		transform: scale(1, 0);
-	}
 
 }
 
