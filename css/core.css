@@ -381,6 +381,7 @@ footer {
 	text-transform: uppercase;
 	color: #575757;
 	margin-top: 20px;
+	padding-bottom: 1em; 
 }
 
 #post h1 a, #content_about h1 a   {
