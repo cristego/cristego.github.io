@@ -161,7 +161,7 @@ footer, #container, #footer_content, #content, #content_about {
 }
 
 #container {
-	min-height: 70%;
+	min-height: calc(100vh - 91px);;
 	margin-top: 8em;
 }
 
@@ -293,13 +293,10 @@ footer {
 	margin-bottom: 5px;
 }
 
-.copyright li {padding-left: 0px; padding-right: 0px; display: inline;}
-
-.twitter, .flickr, .Five100px, .gplus, .linkedin, .xing {
-	background-size: 40px auto;
-	line-height: 40px;
-	vertical-align: middle;
-	opacity: 0.9;
+.copyright li {
+	padding-left: 0px; 
+	padding-right: 0px; 
+	display: inline;
 }
 
 
@@ -331,7 +328,7 @@ footer {
 	margin-bottom: 40px;
 }
 
-#about_desc {
+.about_desc {
 	text-align: center;
 	padding-top: 2em;
 	padding-bottom: 2em;
@@ -422,7 +419,9 @@ footer {
 	text-transform: uppercase;
 }
 
-#post h2 a:hover, #content_about h2 a:hover {color: #6492A9;}
+#post h2 a:hover, #content_about h2 a:hover {
+	color: #6492A9;
+}
 
 #post h4, h4 {
 	color: #6492A9;
