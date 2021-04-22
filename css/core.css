@@ -161,8 +161,8 @@ footer, #container, #footer_content, #content, #content_about {
 }
 
 #container {
-	min-height: calc(100vh - 91px);;
-	margin-top: 8em;
+	min-height: calc(100vh - 50px);;
+	margin-top: 10em;
 }
 
 footer {
