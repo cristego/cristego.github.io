@@ -328,8 +328,8 @@ footer {
 }
 
 #nav_header li {
-	font-weight: normal;
-	display: inline;
+	font-weight: 400;
+	display: inline-block;
 }
 
 #nav_header a {
