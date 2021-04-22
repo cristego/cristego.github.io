@@ -2,18 +2,25 @@
 <html>
 {% include head.html %}
 <body>
-<header>
-  <div id="siteLogo">
-    <!-- <h1><a href="{{ site.url }}">c p</a></h1> -->
-    <a href="{{ site.url }}"><img id="logo_img" src="{{ "/media/cplogo_new_1000px.png" | prepend: site.url }}"></img></a>
-  </div>
-  <div id="nav_header">
-    <ul>
-    {% for page in site.pages_list %}
-      <li id="nav_separator"><a href="{{ page[1]  | prepend: site.url }}">{{ page[0] }}</a></li>
-    {% endfor %}
-    </ul>
-  </div>
+  <header>
+    <div class="logo">
+        <a href="{{ site.url }}">
+            <img class="logo-img" src="{{ "/media/cplogo_new_1000px.png" | prepend: site.url }}" alt="logo-img">
+        </a>
+    </div>
+    <input type="checkbox" id="nav-toggle" class="nav-toggle">
+    <nav>
+        <ul>
+          {% for page in site.pages_list %}
+            <li>
+              <a href="{{ page[1]  | prepend: site.url }}">{{ page[0] }}</a>
+            </li>
+          {% endfor %}
+        </ul>
+    </nav>
+    <label for="nav-toggle" class="nav-toggle-label">
+        <span></span>
+    </label>
 </header>
 <div id="container">
 {{ content }}
