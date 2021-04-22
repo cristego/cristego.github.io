@@ -162,7 +162,7 @@ footer, #container, #footer_content, #content, #content_about {
 
 #container {
 	min-height: 80vh;
-	margin-top: 10em;
+	margin-top: 15em;
 }
 
 footer {
@@ -565,6 +565,10 @@ section#card li a:hover {
 
 		width: 100%;
 
+	}
+
+	#container {
+		margin-top: 10em;
 	}
 
 	#content, #content_about {
