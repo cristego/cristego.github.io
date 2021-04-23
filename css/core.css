@@ -833,12 +833,12 @@ section#card li a:hover {
   header {
     max-width: 900px;
     margin: 0 auto;
+    padding-left: 1rem;
+    padding-right: 1rem;
   }
 
   #container {
     width: 100%;
-    padding-left: 1em;
-    padding-right: 1em;
   }
 
   /*	#container {width: 60%; margin-left: 20%; margin-right: 20%; min-height: 71%;} */
