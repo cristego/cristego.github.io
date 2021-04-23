@@ -855,6 +855,9 @@ section#card li a:hover {
 		padding-right: 5%; */
 
     width: 100%;
+  }
+
+  body {
     padding-left: 1rem;
     padding-right: 1rem;
   }
