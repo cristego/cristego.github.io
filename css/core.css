@@ -575,6 +575,10 @@ section#card li a:hover {
 		padding-left: 1em;
 		padding-right: 1em;
 	}
+
+	#content_about p, #post p {
+		font-size: 1.4em;
+	}
 }
 
 @media only screen and (max-width: 800px) {	
