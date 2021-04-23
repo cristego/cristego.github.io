@@ -829,8 +829,6 @@ section#card li a:hover {
   body {
     max-width: 900px;
     margin: 0 auto;
-    padding-left: 1rem;
-    padding-right: 1rem;
   }
 
   header {
@@ -840,6 +838,8 @@ section#card li a:hover {
 
   #container {
     width: 100%;
+    padding-left: 1rem;
+    padding-right: 1rem;
   }
 
   /*	#container {width: 60%; margin-left: 20%; margin-right: 20%; min-height: 71%;} */
@@ -857,7 +857,7 @@ section#card li a:hover {
     width: 100%;
   }
 
-  body {
+  #container {
     padding-left: 1rem;
     padding-right: 1rem;
   }
@@ -1048,6 +1048,7 @@ nav a:hover {
 .logo {
   display: flex;
   align-items: flex-end;
+  margin-left: 1rem;
 }
 
 .logo img {
@@ -1071,7 +1072,6 @@ nav a:hover {
   }
 
   .logo {
-    margin: 0;
     display: block;
   }
 
