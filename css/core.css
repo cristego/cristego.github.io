@@ -829,8 +829,7 @@ section#card li a:hover {
 }
 
 @media screen and (min-device-width: 1000px) {
-  body,
-  header {
+  body {
     max-width: 900px;
     margin: 0 auto;
     padding-left: 1rem;
@@ -1046,7 +1045,7 @@ nav a:hover {
 }
 
 .logo {
-  margin-left: 1em;
+  margin-left: 0;
   display: flex;
   align-items: flex-end;
 }
