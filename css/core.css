@@ -1050,7 +1050,7 @@ nav a:hover {
 }
 
 .logo {
-  margin-left: 0;
+  margin-left: 1rem;
   display: flex;
   align-items: flex-end;
 }
