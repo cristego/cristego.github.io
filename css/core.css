@@ -836,6 +836,11 @@ section#card li a:hover {
     padding-right: 1rem;
   }
 
+  header {
+    max-width: 900px;
+    margin: 0 auto;
+  }
+
   #container {
     width: 100%;
   }
