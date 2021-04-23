@@ -858,16 +858,12 @@ section#card li a:hover {
 		padding-right: 5%; */
 
     width: 100%;
+    padding-left: 1rem;
+    padding-right: 1rem;
   }
 
   #container {
     margin-top: 10em;
-  }
-
-  #content,
-  #content_about {
-    padding-left: 1em;
-    padding-right: 1em;
   }
 
   #content_about p,
