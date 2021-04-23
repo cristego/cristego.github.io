@@ -41,8 +41,8 @@ h1,h2,h3,h4,h5,h6 { font-weight: bold; }
 html { overflow-y: scroll; }
 
 a:hover, a:active { outline: none; }
-a, a:active, a:visited { color: #607890; }
-a:hover { color: #607890; }
+a, a:active, a:visited { color: var(--link);}
+a:hover { color: var(--link-hover);}
 
 ol, ul { list-style: none; }
 ul, ol { margin-left: 1.8em; }
@@ -123,14 +123,12 @@ p, li, .copyright, section#card h1 {
 /* general */
 
 a  {
-	color: var(--link); 
 	font-weight: 700; 
 	text-decoration: none;
 	cursor: pointer;
 }
 
 a:hover {
-	color: var(--link-hover); 
 	transition: all 0.3s ease 0.2s;
 }
 
@@ -188,9 +186,11 @@ footer {
 	font-weight: 700;
 }
 
+/* replace by global spec for links
+
 #footer_content ul a:hover {
 	color: #6492A9;
-}
+}  */
 
 #footer_content {
 	padding-top: 15px;
@@ -263,12 +263,11 @@ footer {
 
 #nav_header a {
 	font-weight: 700;
-	color: #C1C1C1;
 	padding: 10px;
 }
 
 #nav_header a:hover {
-	color: #919191;
+
 }
 
 .nav_separator {
@@ -463,7 +462,7 @@ footer {
 }
 
 #post p a:hover, #content_about p a:hover {
-	color: #6492A9;
+	
 }
 
 #title {
