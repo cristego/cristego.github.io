@@ -181,16 +181,13 @@ footer {
 }
 
 #footer_content ul a {
-	color: #575757;
 	letter-spacing: 0.5px;
 	font-weight: 700;
 }
 
-/* replace by global spec for links
-
 #footer_content ul a:hover {
-	color: #6492A9;
-}  */
+
+} 
 
 #footer_content {
 	padding-top: 15px;
