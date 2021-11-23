@@ -8,7 +8,7 @@ function minify_css(f){
      //The method pipe() allow you to chain multiple tasks together 
      //Execute the task to minify the files
     .pipe(clean_css())
-    //I define the destination of the minified files with the method dest
+    //Define the destination of the minified files with the method dest
     .pipe(gulp.dest('css'));
 
     f();
