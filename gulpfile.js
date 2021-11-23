@@ -8,7 +8,7 @@ function minify_css(f){
      return gulp.src('_site/assets/**/*.css')
         //The method pipe() allow you to chain multiple tasks together
         //Bundle css files found in assets folder
-        .pipe(concat_css("_site/core.css")) 
+        .pipe(concat_css("core.css")) 
         //Execute the task to minify the files
         .pipe(clean_css())
         //Define the destination of the minified files with the method dest
