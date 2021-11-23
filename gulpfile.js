@@ -4,12 +4,12 @@ const clean_css = require('gulp-clean-css');
 
 function minify_css(f){
      // Folder with files to minify
-     return gulp.src('assets/*.css')
+     return gulp.src('_site/assets/*.css')
      //The method pipe() allow you to chain multiple tasks together 
      //Execute the task to minify the files
     .pipe(clean_css())
     //Define the destination of the minified files with the method dest
-    .pipe(gulp.dest('css'));
+    .pipe(gulp.dest('_site/css'));
 
     f();
 }
