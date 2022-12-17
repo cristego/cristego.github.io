@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Form</title>
+    <style>
+        body, main {
+            width: 100%;
+   
+        }
+        main {
+            margin: 0 auto; 
+            max-width: 600px;
+        }
+
+        section {
+            font-size: 1.5em;
+        }
+
+        .contact-form {
+            max-width: 600px;
+        }
+
+        .contact-form__input, .contact-form__textarea {
+            border: 1px solid #ccc;
+            outline: 0;
+            border-radius: 8px;
+            display: block; 
+            width: 100%;
+            margin-top: 1em;
+            padding: 1em;
+        }
+
+        .contact-form__textarea {
+            height: 150px;
+        }
+
+        .contact-form__input__btn {
+            background-color: rgb(12, 184, 35);
+            border: 0;
+            color: white;
+            border-radius: 8px;
+            padding-block: 1em; 
+            padding-inline: 3em;
+            cursor: pointer;
+            margin-top: 1em;
+        }
+
+        .contact-form__input__btn:hover {
+            background-color: rgb(21, 151, 38);
+        }
+    </style>
+</head>
+<body>
+    <main>
+        <section>
+            <header>
+                <h2>Say Hi</h2>
+            </header>
+            <form action="" class="contact-form">
+                <label for="name" class="contact-form__label"></label>
+                <input type="text" class="contact-form__input" placeholder="Your name..">
+                <label for="email" class="contact-form__label"></label>
+                <input type="email" class="contact-form__input" placeholder="Your e-mail..">
+                <label for="subject" class="contact-form__label"></label>
+                <input type="text" class="contact-form__input" placeholder="Subject..">
+                <label for="message" class="contact-form__label"></label>
+                <textarea name="message" class="contact-form__textarea" placeholder="Your message.."></textarea>
+                <input type="submit" class="contact-form__input__btn" value="Submit">
+            </form>
+        </section>
+    </main> 
+    
+</body>
+</html>
