@@ -1,7 +1,7 @@
 ---
 published: true
 layout: post
-title: This website is built on a JAMstack2
+title: This website is built on a JAMstack
 date: 2020-11-01T00:00:28.000Z
 categories: 
 permalink: '/articles/:categories/:year/:title.html'
