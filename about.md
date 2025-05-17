@@ -20,7 +20,8 @@ Outside the corporate world I am..
 
 .. an avid learner, hungry to learn something new every day.
 
-.. passioned about photography, design and technology.
-
+.. passioned about photography, design and technology.<br>
+<br>
+<br>
 
 I live nearby Zurich, Switzerland.
