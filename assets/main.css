@@ -697,7 +697,7 @@ footer,
 }
 
 article {
-  margin-bottom: 5em;
+  margin-bottom: 10em;
 }
 
 
@@ -817,8 +817,8 @@ footer {
 
 .about_desc {
   text-align: center;
-  padding-top: 5em;
-  padding-bottom: 5em;
+  padding-top: 2em;
+  padding-bottom: 2em;
 }
 
 .about_desc {
