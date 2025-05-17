@@ -7,10 +7,9 @@ published: true
 
 # Hi. I am Christian
 
-On this website I share my views - and only my views, thoughts and whatever else I may think is worth sharing on this digital playground.
-
-For my living I work with people, for people.
-You can find my resume on [Linkedin](https://ch.linkedin.com/in/christianpopa){:target="\_blank"}.
+Born in the 80s, fascinated by technology and science. 
+Helping companies to reimagine the way of working using technology and data right.
+More about this on [Linkedin](https://ch.linkedin.com/in/christianpopa){:target="\_blank"}.
 
 Outside the corporate world I am..
 
@@ -18,9 +17,9 @@ Outside the corporate world I am..
 
 .. an entrepreneur, [making people happy with hand crafted gelato](https://eiszeit.co/){:target="\_blank"}.
 
-.. an avid learner, hungry to learn something new every day.
+.. an addicted learner, hungry to learn something new every day.
 
-.. passioned about photography, design and technology.<br>
+.. passioned about photography, design and everything food.<br>
 <br>
 <br>
 
