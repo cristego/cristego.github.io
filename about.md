@@ -14,12 +14,13 @@ You can find my resume on [Linkedin](https://ch.linkedin.com/in/christianpopa){:
 
 Outside the corporate world I am..
 
-.. a proud dad and partner.
+.. a proud dad.
 
 .. an entrepreneur, [making people happy with hand crafted gelato](https://eiszeit.co/){:target="\_blank"}.
 
 .. an avid learner, hungry to learn something new every day.
 
 .. passioned about photography, design and technology.
+
 
 I live nearby Zurich, Switzerland.
