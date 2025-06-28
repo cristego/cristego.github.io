@@ -706,6 +706,7 @@ body {
 }
 
 #container,
+container2,
 footer,
 #footer_content,
 #content,
@@ -719,6 +720,11 @@ footer,
 #container {
     min-height: 80vh;
     margin-top: 15em;
+}
+
+#container2 {
+    min-height: 80vh;
+    margin-top: 0;
 }
 
 article {
