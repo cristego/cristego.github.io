@@ -7,8 +7,8 @@ published: true
 
 # Hi. I am Christian
 
-Born in the 80s, fascinated by technology and science. 
-Helping companies to reimagine the way of working using technology and data right.
+Born in the 80s, fascinated by technology and science.
+Helping companies to reimagine the way of working using technology, data and ai.
 More about this on [Linkedin](https://ch.linkedin.com/in/christianpopa){:target="\_blank"}.
 
 Outside the corporate world I am..
