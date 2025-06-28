@@ -724,7 +724,12 @@ footer,
 
 #container2 {
     min-height: 80vh;
+    width: 100%;
     margin-top: 0;
+    background-image: var(--background-image);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
 article {
