@@ -716,6 +716,7 @@ body {
 
 #container,
 #container2,
+footer,
 #footer_content,
 #content,
 #content_about {
@@ -770,6 +771,7 @@ footer {
 
 #footer_content {
     padding-top: 15px;
+    padding-bottom: 15px;
     text-align: center;
 }
 
@@ -1100,7 +1102,11 @@ footer {
     }
 
     footer {
-        width: 100vw;
+        width: 100%;
+    }
+
+    #footer_content {
+        max-width: var(--box-size);
     }
 
     /*	#container {width: 60%; margin-left: 20%; margin-right: 20%; min-height: 71%;} */
@@ -1115,7 +1121,7 @@ footer {
 		padding-left: 5%;
 		padding-right: 5%; */
 
-        width: 100vw;
+        width: 100%;
     }
 
     #container {
