@@ -1087,12 +1087,10 @@ footer {
 @media screen and (min-device-width: 1000px) {
     body {
         /*max-width: 900px;*/
-        margin: 0 auto;
     }
 
     header {
         max-width: var(--box-size);
-        margin: 0 auto;
     }
 
     #container {
