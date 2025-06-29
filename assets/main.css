@@ -446,7 +446,6 @@ h1,
 h2,
 h3,
 h4,
-#siteLogo,
 #nav_header,
 footer,
 .about_desc,
@@ -771,39 +770,6 @@ footer {
     text-align: center;
 }
 
-/* Title */
-
-#siteLogo {
-    float: left;
-    width: 55%;
-    vertical-align: middle;
-    font-weight: 900;
-    font-size: 5em;
-    margin-top: 40px;
-    margin-bottom: 40px;
-}
-
-/*
-#siteLogo h1 {
-	color: #6492A9;
-	text-align: left;
-	text-decoration: none;
-	text-transform: uppercase;
-	letter-spacing: 0px;
-}
-
-#siteLogo a {
-	text-decoration: none;
-	text-align: left;
-	text-transform: uppercase;
-	padding-top: 0px;
-}
-
-#siteLogo  a {color: #6492A9; border-top: 8px solid #6492A9; border-bottom: 4px solid #6492A9;}
-#siteLogo a:hover {border-top: 8px solid #C1D3DD; border-bottom: 4px solid #C1D3DD;}
-
-*/
-
 /* Content */
 
 .empty_space {
@@ -879,12 +845,7 @@ footer {
 }
 
 #logo_img img {
-    width: 400px !important;
-    height: auto;
-}
-
-#siteLogo img {
-    width: 400px !important;
+    width: 200px !important;
     height: auto;
 }
 
@@ -1132,17 +1093,6 @@ footer {
     #content_about p,
     #post p {
         font-size: 1.4em;
-    }
-}
-
-@media only screen and (max-width: 800px) {
-    #siteLogo {
-        width: 50%;
-        margin: 0;
-    }
-
-    #siteLogo a {
-        padding-top: 0px;
     }
 }
 
