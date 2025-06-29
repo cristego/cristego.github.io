@@ -518,6 +518,10 @@ section#card h1 {
     display: inline;
 }
 
+.connect a {
+    color: #c1c1c1;
+}
+
 /* old version, before new navigation
 
 header, footer, #container, #footer_content, #content, #content_about {
