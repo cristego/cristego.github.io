@@ -532,7 +532,6 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    position: fixed;
     max-width: var(--box-size);
     padding: 1.5rem 2rem;
     background: var(--background);
@@ -748,7 +747,6 @@ article {
     padding-right: 1rem;
 
     /* Optional: max width constraint for large screens */
-    margin-top: var(--header-height);
     margin-left: auto;
     margin-right: auto;
 
@@ -758,7 +756,7 @@ article {
 
 @media (max-width: 768px) {
     #article_container {
-        margin-top: 80px;
+        /* margin-top: 80px; */
     }
 }
 
