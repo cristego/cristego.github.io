@@ -9,6 +9,9 @@
         </a>
     </div>
     <input type="checkbox" id="nav-toggle" class="nav-toggle">
+    <label for="nav-toggle" class="nav-toggle-label">
+        <span></span>
+    </label>
     <nav>
         <ul>
           {% for page in site.pages_list %}
@@ -18,9 +21,7 @@
           {% endfor %}
         </ul>
     </nav>
-    <label for="nav-toggle" class="nav-toggle-label">
-        <span></span>
-    </label>
+
 </header>
 <div id="container">
   {{ content }}
