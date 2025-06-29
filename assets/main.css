@@ -565,6 +565,23 @@ nav {
     gap: 2rem;
 }
 
+nav ul {
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+}
+
+@media (min-width: 801px) {
+    nav ul {
+        display: flex;
+        gap: 2rem;
+    }
+
+    nav li {
+        display: block;
+    }
+}
+
 /* NAV TOGGLE CHECKBOX HIDDEN */
 .nav-toggle {
     display: none;
