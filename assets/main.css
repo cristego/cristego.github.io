@@ -827,7 +827,7 @@ article {
     /* Ensure it takes full width and adapts layout */
     width: 100%;
     min-height: 80vh;
-    height: 100%;
+    height: auto;
 
     /* Optional: apply padding for readability */
     padding-left: 2rem;
