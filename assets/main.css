@@ -980,6 +980,10 @@ footer {
     margin-bottom: 1rem;
 }
 
+#post {
+    display: flow-root;
+}
+
 #post h1,
 #content_about h1 {
     font-weight: 700;
@@ -1053,13 +1057,9 @@ h4 {
 #content_about p a:hover {
 }
 
+#date,
 #title {
-    float: left;
-    width: auto;
-}
-
-#date {
-    float: left;
+    float: none;
     width: auto;
 }
 
