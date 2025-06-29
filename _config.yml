@@ -23,10 +23,10 @@ highlighter: rouge
 excerpt_separator: <!--End of Excerpt-->
 
 pages_list:
-#  About: '/about'
-#  Articles: '/articles'
+  About: "/about"
+  Articles: "/articles"
 
 paginate: 5
-paginate_path: '/articles/page:num/'
+paginate_path: "/articles/page:num/"
 
 plugins: [jekyll-paginate]

@@ -533,7 +533,7 @@ header {
     justify-content: space-between;
     align-items: center;
     max-width: var(--box-size);
-    padding: 1.5rem 2rem;
+    padding: 1.5rem 1rem;
     background: var(--background);
     z-index: 999;
     min-height: var(--header-height);
@@ -741,6 +741,7 @@ article {
 #article_container {
     /* Ensure it takes full width and adapts layout */
     width: 100%;
+    min-height: 80vh;
 
     /* Optional: apply padding for readability */
     padding-left: 1rem;
