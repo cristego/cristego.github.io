@@ -648,7 +648,7 @@ nav a:hover {
     .nav-toggle-label {
         display: none;
     }
-
+    /* disabling grid
     header {
         display: grid;
         grid-template-columns: 1fr auto minmax(300px, 7fr) 1fr;
@@ -657,7 +657,7 @@ nav a:hover {
     .logo {
         grid-column: 1 / span 1;
     }
-
+*/
     .logo {
         display: block;
     }
