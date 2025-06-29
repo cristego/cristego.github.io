@@ -738,6 +738,15 @@ article {
     margin-top: var(--header-height);
     margin-left: auto;
     margin-right: auto;
+
+    /* Actually apply max-width constraint */
+    max-width: var(--box-size);
+}
+
+@media (max-width: 768px) {
+    #article_container {
+        margin-top: 80px;
+    }
 }
 
 /* Footer */
