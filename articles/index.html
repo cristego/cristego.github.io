@@ -8,12 +8,12 @@ title: Articles
 {% for post in paginator.posts %}
 <div class="empty_space_20"></div>
 <div id="post">
-<p class="date">{{ post.date | date: "%Y | %b %-d" }}</p>
-<h1><a href="{{ post.url }}">{{ post.title }}</a></h1>
-<p>{{ post.excerpt | remove: '<p>' | remove: '</p>' }}</p>
-<div id="readmore">
-    <p><a title="read more" href="{{ post.url }}">read more .. </a></p>
-</div>
+    <p class="date">{{ post.date | date: "%Y | %b %-d" }}</p>
+    <h1><a href="{{ post.url }}">{{ post.title }}</a></h1>
+    <p>{{ post.excerpt | remove: '<p>' | remove: '</p>' }}</p>
+    <div id="readmore">
+        <p><a title="read more" href="{{ post.url }}">read more .. </a></p>
+    </div>
 </div>
 {% endfor %}
 
