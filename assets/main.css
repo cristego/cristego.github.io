@@ -751,9 +751,15 @@ footer {
     margin-bottom: 5em;
 }
 
-#container2 {
+#container_left {
     min-height: 100vh;
-    width: 100%;
+    width: 40%;
+    margin-top: 0;
+}
+
+#container_right {
+    min-height: 100vh;
+    width: 60%;
     margin-top: 0;
     background-image: var(--background-image);
     background-size: cover;
