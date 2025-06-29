@@ -742,6 +742,8 @@ footer,
 header {
     width: 100%;
     background-color: var(--background);
+    background-color: darkgoldenrod;
+    min-height: 100px;
     padding: 20px 0;
 }
 
