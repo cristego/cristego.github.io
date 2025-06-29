@@ -827,10 +827,12 @@ article {
     /* Ensure it takes full width and adapts layout */
     width: 100%;
     min-height: 80vh;
+    height: 100%;
 
     /* Optional: apply padding for readability */
     padding-left: 2rem;
     padding-right: 2rem;
+    padding-bottom: 2rem;
 
     /* Optional: max width constraint for large screens */
     margin-left: auto;
@@ -979,7 +981,7 @@ footer {
     width: 100%;
     margin-left: 0;
     margin-right: 0;
-    margin-bottom: 30px;
+    margin-bottom: 1rem;
 }
 
 #post h1,
@@ -1042,7 +1044,7 @@ h4 {
     font-size: 1.6em;
     letter-spacing: 1px;
     line-height: 1.2em;
-    margin-top: 20px;
+    margin-top: 1rem;
     color: #919191;
 }
 
