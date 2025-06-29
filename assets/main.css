@@ -771,11 +771,12 @@ footer {
 /* Right: image container (60%) */
 #container_right {
     flex: 0 0 60%;
+    height: 100vh;
     background-image: var(--background-image);
-    background-size: cover;
+    background-size: contain;
     background-repeat: no-repeat;
-    background-position: center;
-    min-height: 100vh;
+    background-position: center center;
+    background-color: #f8f8ff; /* optional fallback */
 }
 
 /* Mobile responsiveness */
