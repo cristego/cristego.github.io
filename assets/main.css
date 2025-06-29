@@ -151,7 +151,6 @@ select {
 body {
     font: 13px/1.231 sans-serif;
     font-size: small;
-    padding-top: var(--header-height);
 }
 select,
 input,
