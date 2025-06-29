@@ -919,7 +919,7 @@ footer {
     font-weight: 700;
     font-size: 3em;
     letter-spacing: 0.1em;
-    line-height: 1em;
+    line-height: 0.9em;
     text-transform: uppercase;
     color: #575757;
     margin-top: 20px;
@@ -1146,6 +1146,7 @@ footer {
     #about_img,
     .about_desc {
         text-align: left;
+        line-height: 0.9em;
     }
 
     #about_img {
