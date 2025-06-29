@@ -1045,6 +1045,11 @@ section#card li a:hover {
     border-bottom: 1px solid #6492a9;
 }
 
+footer {
+    background-color: #414159;
+    color: #ced5db;
+}
+
 /*	media queries */
 
 @media all and (orientation: portrait) {
