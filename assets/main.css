@@ -549,7 +549,7 @@ header {
 
 /* Base */
 .logo img {
-    width: 150px;
+    width: 240px;
     height: auto;
 }
 
@@ -562,7 +562,7 @@ header {
     }
 
     .logo img {
-        width: 200px;
+        width: 240px;
     }
 }
 
@@ -682,7 +682,7 @@ nav ul {
     justify-content: flex-end; /* aligns nav to the right */
     align-items: center;
     width: 100%;
-    font-size: 1.5rem;
+    font-size: 1.2rem;
 }
 
 #my_menu ul {
