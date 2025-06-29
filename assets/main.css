@@ -542,7 +542,7 @@ header {
 /* LOGO */
 .logo {
     display: flex;
-    align-items: center;
+    align-items: left;
 }
 
 /* Base */
@@ -670,22 +670,25 @@ nav ul {
 /* DESKTOP DEFAULT */
 #my_menu {
     display: flex;
+    justify-content: flex-end; /* aligns nav to the right */
     align-items: center;
-    justify-content: flex-end;
+    width: 100%;
 }
 
 #my_menu ul {
     display: flex;
     gap: 2rem;
-    list-style: none;
     padding: 0;
     margin: 0;
 }
 
-#my_menu li a {
+#my_menu li {
+    list-style: none;
+}
+
+#my_menu a {
     text-decoration: none;
-    font-weight: 700;
-    color: var(--link);
+    font-weight: bold;
 }
 
 /* MOBILE */
@@ -693,17 +696,23 @@ nav ul {
     #my_menu {
         width: 100%;
         justify-content: center;
-        margin-top: 1rem;
+        padding: 1rem 0;
     }
 
     #my_menu ul {
-        flex-direction: column;
-        align-items: center;
-        width: 100%;
+        flex-direction: row;
+        justify-content: center;
+        flex-wrap: wrap; /* optional: wrap if screen is too narrow */
+        padding: 0;
     }
 
     #my_menu li {
-        padding: 1rem 0;
+        margin: 0 0.5rem;
+    }
+
+    #my_menu a {
+        display: inline-block;
+        padding: 0.5rem 0;
     }
 }
 
