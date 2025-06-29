@@ -752,17 +752,16 @@ footer {
 }
 
 #container_left {
-    min-height: 100vh;
-    width: 40%;
+    width: 100%;
     margin-top: 0;
 }
 
 #container_right {
     min-height: 100vh;
-    width: 60%;
+    width: 100%;
     margin-top: 0;
     background-image: var(--background-image);
-    background-size: cover;
+    background-size: contain;
     background-repeat: no-repeat;
     background-position: right;
 }
