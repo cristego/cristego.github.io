@@ -533,7 +533,7 @@ header {
     justify-content: space-between;
     align-items: center;
     max-width: var(--box-size);
-    padding: 1.5rem 1rem;
+    padding: 1.5rem 2rem;
     background: var(--background);
     z-index: 999;
     min-height: var(--header-height);
@@ -829,8 +829,8 @@ article {
     min-height: 80vh;
 
     /* Optional: apply padding for readability */
-    padding-left: 1rem;
-    padding-right: 1rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
 
     /* Optional: max width constraint for large screens */
     margin-left: auto;

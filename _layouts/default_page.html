@@ -2,26 +2,25 @@
 <html lang="en">
 {% include head.html %}
 <body>
-  <header>
-    <div class="logo">
-        <a href="{{ site.url }}">
-            <img src="{{ "/media/cplogo_new_1000px.png" | prepend: site.url }}" alt="logo-img">
-        </a>
-    </div>
-    <div id="my_menu">
-        <ul>
-          {% for page in site.pages_list %}
-            <li>
-              <a href="{{ page[1]  | prepend: site.url }}">{{ page[0] }}</a>
-            </li>
-          {% endfor %}
-        </ul>
-    </div>
-
-</header>
-<div id="article_container">
-  {{ content }}
-</div> <!-- end of #container -->
-{% include footer.html %}
+    <header>
+        <div class="logo">
+            <a href="{{ site.url }}">
+                <img src="{{ "/media/cplogo_new_1000px.png" | prepend: site.url }}" alt="logo-img">
+            </a>
+        </div>
+        <div id="my_menu">
+            <ul>
+            {% for page in site.pages_list %}
+                <li>
+                <a href="{{ page[1]  | prepend: site.url }}">{{ page[0] }}</a>
+                </li>
+            {% endfor %}
+            </ul>
+        </div>
+    </header>
+    <div id="article_container">
+    {{ content }}
+    </div> <!-- end of #container -->
+    {% include footer.html %}
 </body>
 </html>
