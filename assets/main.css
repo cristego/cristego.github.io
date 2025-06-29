@@ -641,11 +641,10 @@ nav ul {
         overflow: hidden;
     }
 
-    .nav-toggle:checked + .nav-toggle-label + nav {
+    .nav-toggle:checked ~ nav {
         transform: scaleY(1);
     }
-
-    .nav-toggle:checked + .nav-toggle-label + nav a {
+    .nav-toggle:checked ~ nav a {
         opacity: 1;
     }
 
