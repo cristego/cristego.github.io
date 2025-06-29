@@ -635,7 +635,7 @@ nav a:hover {
 .logo {
     display: flex;
     align-items: flex-end;
-    margin-left: 1rem;
+    margin-left: 2rem;
 }
 
 .logo img {
@@ -657,10 +657,11 @@ nav a:hover {
     .logo {
         grid-column: 1 / span 1;
     }
-*/
+
     .logo {
         display: block;
     }
+*/
 
     .logo img {
         width: 300px;
