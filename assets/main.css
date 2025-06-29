@@ -546,6 +546,19 @@ header {
     align-items: center;
 }
 
+/* Base */
+.logo img {
+    width: 150px;
+    height: auto;
+}
+
+/* Larger screens */
+@media screen and (min-width: 800px) {
+    .logo img {
+        width: 200px;
+    }
+}
+
 /* NAVIGATION - Desktop default */
 nav {
     display: flex;
@@ -850,11 +863,6 @@ footer {
 
 #about_img img {
     width: 100%;
-    height: auto;
-}
-
-#logo_img img {
-    width: 200px !important;
     height: auto;
 }
 
@@ -1167,11 +1175,6 @@ footer {
 }
 
 @media only screen and (max-width: 800px) {
-    #logo_img {
-        visibility: hidden;
-        height: 0px;
-    }
-
     #about_img {
         margin: 0;
         margin-bottom: 40px;
