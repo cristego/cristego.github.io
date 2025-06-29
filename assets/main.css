@@ -738,6 +738,12 @@ footer,
     padding: 0 1rem;
 }
 
+header {
+    width: 100%;
+    background-color: var(--background);
+    padding: 20px 0;
+}
+
 footer {
     width: 100%;
     background-color: #414159;
