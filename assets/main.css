@@ -361,7 +361,7 @@ li {
 /* Variables */
 
 :root {
-    --link-hover: #6492a9;
+    --box-size: 900p --link-hover: #6492a9;
     --link: #575757;
     --background: #f8f8ff;
     --background-menu: #efeffa;
@@ -1084,19 +1084,23 @@ footer {
 
 @media screen and (min-device-width: 1000px) {
     body {
-        max-width: 900px;
+        /*max-width: 900px;*/
         margin: 0 auto;
     }
 
     header {
-        max-width: 900px;
+        max-width: var(--box-size);
         margin: 0 auto;
     }
 
     #container {
-        width: 100%;
+        max-width: var(--box-size);
         padding-left: 1rem;
         padding-right: 1rem;
+    }
+
+    footer {
+        width: 100vw;
     }
 
     /*	#container {width: 60%; margin-left: 20%; margin-right: 20%; min-height: 71%;} */
@@ -1111,7 +1115,7 @@ footer {
 		padding-left: 5%;
 		padding-right: 5%; */
 
-        width: 100%;
+        width: 100vw;
     }
 
     #container {
