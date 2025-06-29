@@ -367,6 +367,7 @@ li {
     --background: #f8f8ff;
     --background-menu: #efeffa;
     --background-image: url("/media/bg_fhd_home.png");
+    --header-height: 150px;
 }
 
 /* Fonts */
@@ -537,6 +538,7 @@ header {
     padding: 1.5rem 2rem;
     background: var(--background);
     z-index: 999;
+    min-height: var(--header-height);
 }
 
 /* LOGO */
@@ -649,19 +651,6 @@ body {
     background: var(--background);
 }
 
-/*
-#container,
-#container2,
-footer,
-#footer_content,
-#content,
-#content_about {
-    float: left;
-    width: 100%;
-    text-align: left;
-    margin: 0 auto;
-}
-*/
 #container,
 #footer_content,
 #content_about,
@@ -736,6 +725,20 @@ footer {
 
 article {
     margin-bottom: 10em;
+}
+
+#article_container {
+    /* Ensure it takes full width and adapts layout */
+    width: 100%;
+
+    /* Optional: apply padding for readability */
+    padding-left: 1rem;
+    padding-right: 1rem;
+
+    /* Optional: max width constraint for large screens */
+    margin-top: var(--header-height);
+    margin-left: auto;
+    margin-right: auto;
 }
 
 /* Footer */
