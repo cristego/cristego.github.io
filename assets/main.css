@@ -542,7 +542,9 @@ header {
 /* LOGO */
 .logo {
     display: flex;
-    align-items: left;
+    align-items: center;
+    width: 100%; /* Always 100% */
+    justify-content: flex-start; /* Desktop default */
 }
 
 /* Base */
@@ -561,6 +563,31 @@ header {
 
     .logo img {
         width: 200px;
+    }
+}
+
+@media (max-width: 800px) {
+    .logo {
+        justify-content: center;
+        margin-bottom: 1rem; /* optional spacing */
+    }
+
+    #my_menu {
+        justify-content: center;
+        padding: 1rem 0;
+    }
+
+    #my_menu ul {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        padding: 0;
+        margin: 0;
+    }
+
+    #my_menu li {
+        margin: 0 0.5rem;
+        list-style: none;
     }
 }
 
