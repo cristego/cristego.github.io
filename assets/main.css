@@ -361,7 +361,8 @@ li {
 /* Variables */
 
 :root {
-    --box-size: 900p --link-hover: #6492a9;
+    --box-size: 900px;
+    --link-hover: #6492a9;
     --link: #575757;
     --background: #f8f8ff;
     --background-menu: #efeffa;
