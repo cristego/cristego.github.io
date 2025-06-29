@@ -729,7 +729,8 @@ footer,
 */
 #container,
 #footer_content,
-#content_about {
+#content_about,
+#about_img {
     max-width: var(--box-size);
     margin: 0 auto;
     width: 100%;
@@ -746,7 +747,8 @@ footer {
 
 #container {
     min-height: 80vh;
-    margin-top: 15em;
+    margin-top: 5em;
+    margin-bottom: 5em;
 }
 
 #container2 {
