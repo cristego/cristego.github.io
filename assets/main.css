@@ -522,6 +522,10 @@ section#card h1 {
     color: #c1c1c1;
 }
 
+.connect a:hover {
+    color: var(--link-hover);
+}
+
 /* old version, before new navigation
 
 header, footer, #container, #footer_content, #content, #content_about {
