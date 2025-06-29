@@ -700,6 +700,7 @@ nav ul {
     justify-content: flex-end; /* aligns nav to the right */
     align-items: center;
     width: 100%;
+    font-size: 1.5rem;
 }
 
 #my_menu ul {
