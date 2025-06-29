@@ -1079,10 +1079,12 @@ blockquote {
 }
 
 section#card {
+    /*
     position: absolute;
     bottom: 20%;
     left: 12%;
     height: 100px;
+    */
 }
 
 section#card h1 {
