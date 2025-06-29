@@ -565,6 +565,10 @@ nav {
     gap: 2rem;
 }
 
+nav {
+    background: pink; /* temporary */
+}
+
 nav ul {
     display: flex;
     gap: 2rem;
