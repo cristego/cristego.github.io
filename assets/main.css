@@ -150,7 +150,8 @@ select {
 
 body {
     font: 13px/1.231 sans-serif;
-    *font-size: small;
+    font-size: small;
+    padding-top: var(--header-height);
 }
 select,
 input,
@@ -533,7 +534,7 @@ header {
     justify-content: space-between;
     align-items: center;
     position: fixed;
-    width: 100%;
+    max-width: var(--box-size);
     padding: 1.5rem 2rem;
     background: var(--background);
     z-index: 999;
@@ -1036,7 +1037,7 @@ footer {
     color: #ced5db;
 }
 
-/*	media queries */
+/*	Media Queries */
 
 @media all and (orientation: portrait) {
     body,
@@ -1060,13 +1061,10 @@ footer {
     }
 }
 
-@media screen and (min-device-width: 1000px) {
-    body {
-        /*max-width: 900px;*/
-    }
-
+@media screen and (min-device-width: 800px) {
     header {
         max-width: var(--box-size);
+        margin: 0 auto;
     }
 
     #container {
