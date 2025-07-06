@@ -21,6 +21,7 @@ If you want to have a simple setup, at no cost, with a high degree of security a
 
 
 Resources:
+
 - **[JAMstack](https://jamstack.org)**
 Learn more about the JAMstack architecture
 
