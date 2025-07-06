@@ -21,6 +21,6 @@ If you want to have a simple setup, at no cost, with a high degree of security a
 
 ## Resources
 - **[JAMstack](https://jamstack.org)** - Learn more about the JAMstack architecture
-- **[GitHub](https://github.com)** - Free hosting for your code repositories
+- **[GitHub](https://github.com)** - Git-based version control with collaboration tools and CI/CD
 - **[Jekyll](https://jekyllrb.com)** - Static site generator with built-in blog support
-- **[Netlify](https://netlify.com)** - Free CDN hosting with automatic deployments
+- **[Netlify](https://netlify.com)** - Static site hosting with CDN, CI/CD, and serverless functions
