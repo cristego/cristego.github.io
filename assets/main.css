@@ -952,9 +952,10 @@ footer {
     height: auto;
 }
 
-#readmore {
+#readmore,
+#readmore a {
     padding-top: 20px;
-    font-sie: 1rem;
+    font-size: 1rem;
 }
 
 #readmore2 p a {
