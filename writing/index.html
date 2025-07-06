@@ -18,7 +18,7 @@ title: Writing
 {% endfor %}
 
 <!-- Pagination links -->
-<div id="post">
+<div id="post_pagination">
   {% if paginator.previous_page %}
   <h1><a class="continue" href="{{ paginator.previous_page_path | prepend: site.url}}">&larr;newer</a></h1>
   {% endif %}
