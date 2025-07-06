@@ -1,7 +1,7 @@
 ---
 published: true
 layout: post
-title: My Digital Playground - A JAMstack Journey
+title: "My Digital Playground - A JAMstack Journey"
 date: 2025-07-01T00:00:28.000Z
 categories:
 permalink: '/articles/:categories/:year/:title.html'
