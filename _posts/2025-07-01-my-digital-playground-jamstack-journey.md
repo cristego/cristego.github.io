@@ -20,16 +20,17 @@ I'll be honest—this approach isn't perfect for every project. If you need comp
 If you want to have a simple setup, at no cost, with a high degree of security and performance, then you may want to consider a similar setup and embrace the benefits of the JAMstack. Getting started is straightforward: create a GitHub account, fork a Jekyll theme, and connect it to Netlify. No computer science degree required.
 
 
+
 Resources:
 
-- [JAMstack](https://jamstack.org)
+- [JAMstack: ](https://jamstack.org)
 Learn more about the JAMstack architecture
 
-- [GitHub](https://github.com)
+- [GitHub: ](https://github.com)
 Git-based version control with collaboration tools and CI/CD
 
-- [Jekyll](https://jekyllrb.com)
+- [Jekyll: ](https://jekyllrb.com)
 Static site generator with built-in blog support
 
-- [Netlify](https://netlify.com)
+- [Netlify: ](https://netlify.com)
 Static site hosting with CDN, CI/CD, and serverless functions
