@@ -7,7 +7,7 @@ categories:
 permalink: '/articles/:categories/:year/:title.html'
 ---
 This digital playground is built on a JAMstack powered by GitHub, Netlify, and Jekyll.
-There are many ways to build a website. I wanted to have a lightweight approach that's secure, performs well, and if possible, at no cost. This is where the idea of using the JAMstack arose.
+There are many ways to build a website. I wanted to have a lightweight approach that's secure, performs well, and if possible, at no cost. This is where the idea of using the JAMstack came up.
 
 <!--End of Excerpt-->
 
