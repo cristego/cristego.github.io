@@ -7,7 +7,7 @@ description: > # this means to ignore newlines until "baseurl:"
   cp
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "https://christianpopa.com" #christianpopa.com
-articles_url: "https://christianpopa.com/articles" #url path for artiles
+articles_url: "https://christianpopa.com/writing" #url path for artiles
 
 # Build settings
 
@@ -24,9 +24,9 @@ excerpt_separator: <!--End of Excerpt-->
 
 pages_list:
   About: "/about"
-  Articles: "/articles"
+  Articles: "/writing"
 
 paginate: 5
-paginate_path: "/articles/page:num/"
+paginate_path: "/writing/page:num/"
 
 plugins: [jekyll-paginate]
