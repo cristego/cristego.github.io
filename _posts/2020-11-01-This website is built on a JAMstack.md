@@ -19,8 +19,8 @@ I call this my digital playground because it's become such a joy to work with—
 I'll be honest—this approach isn't perfect for every project. If you need complex forms or user authentication, you'll need to integrate third-party services. But for my needs as a content creator, these limitations are easily manageable.
 If you want to have a simple setup, at no cost, with a high degree of security and performance, then you may want to consider a similar setup and embrace the benefits of the JAMstack. Getting started is straightforward: create a GitHub account, fork a Jekyll theme, and connect it to Netlify. No computer science degree required.
 
-Resources:
-[JAMstack](https://jamstack.org){:target="_blank"} - Learn more about the JAMstack architecture
-[Github](https://github.com/){:target="_blank"} - Free hosting for your code repositories
-[Jekyll](https://jekyllrb.com){:target="_blank"} - Static site generator with built-in blog support
-[Netlify](https://netlify.com/){:target="_blank"} - Free CDN hosting with automatic deployments
+## Resources
+- **[JAMstack](https://jamstack.org)** - Learn more about the JAMstack architecture
+- **[GitHub](https://github.com)** - Free hosting for your code repositories
+- **[Jekyll](https://jekyllrb.com)** - Static site generator with built-in blog support
+- **[Netlify](https://netlify.com)** - Free CDN hosting with automatic deployments
