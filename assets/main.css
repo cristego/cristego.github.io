@@ -992,7 +992,7 @@ footer {
 #post h1,
 #content_about h1 {
     font-weight: 700;
-    font-size: 3em;
+    font-size: 2em;
     letter-spacing: 0.1em;
     line-height: 0.9em;
     text-transform: uppercase;
@@ -1193,7 +1193,7 @@ footer {
 
     #content_about p,
     #post p {
-        font-size: 1.4em;
+        font-size: 1.2rem;
     }
 }
 
