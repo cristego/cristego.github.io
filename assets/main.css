@@ -978,6 +978,8 @@ footer {
 
 #post {
     margin-bottom: 1rem;
+    border: 1px solid #ccc;
+    box-shadow: 4px 4px 0px #40404f;
 }
 
 #post {
@@ -1042,8 +1044,8 @@ h4 {
 #content_about p {
     /*font-size: 1.1em;*/
     font-size: 1.6em;
-    letter-spacing: 1px;
-    line-height: 1.2em;
+    letter-spacing: 1.2px;
+    line-height: 1.3em;
     margin-top: 1rem;
     color: #919191;
 }
