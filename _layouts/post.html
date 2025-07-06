@@ -3,12 +3,18 @@ layout: default_page
 ---
 
 <div id="content">
-<div class="empty_space_20"></div>
-<div id="post">
-<p class="date">{{ page.date | date: "%Y | %b %-d" }}</p>
-<h1><a href="{{ post.url }}">{{ page.title }}</a></h1>
-<div class="empty_space_10"></div>
-<article>{{ content }}</article>
-<div class="empty_space_40"></div>
+    <div class="empty_space_20"></div>
+    <div id="post">
+        <p class="date">{{ page.date | date: "%Y | %b %-d" }}</p>
+        <h1><a href="{{ post.url }}">{{ page.title }}</a></h1>
+        <div class="empty_space_10"></div>
+        <article>{{ content }}</article>
+        <div id="readmore">
+            <p>
+                <a title="back to more writing" href="/writing">read more.. </a>
+            </p>
+        </div>
+        <div class="empty_space_40"></div>
+    </div>
 </div>
-</div>  <!-- end post -->
+<!-- end post -->
