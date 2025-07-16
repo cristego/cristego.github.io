@@ -8,3 +8,7 @@ Gemfile
 Gemfile.lock
 node_modules
 package-lock.json
+_config_dev.yml
+_config_dev
+.dev_stuff
+rundev.sh
