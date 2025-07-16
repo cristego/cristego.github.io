@@ -758,6 +758,10 @@ body {
     padding: 0 1rem;
 }
 
+#about_img img {
+    max-width: 50%;
+}
+
 footer {
     width: 100%;
     background-color: #414159;
