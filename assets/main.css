@@ -759,7 +759,7 @@ body {
 }
 
 #about_img img {
-    max-width: 50%;
+    max-width: 60%;
 }
 
 footer {
@@ -958,7 +958,6 @@ footer {
 
 #readmore,
 #readmore a {
-    padding-top: 20px;
     font-size: 1rem;
 }
 
@@ -983,7 +982,7 @@ footer {
 }
 
 #post {
-    margin-bottom: 1rem;
+    margin-bottom: 3rem;
     border: 1px solid #ccc;
     box-shadow: 4px 4px 0px #40404f;
     padding: 1rem;
@@ -996,7 +995,7 @@ footer {
 #post h1,
 #content_about h1 {
     font-weight: 700;
-    font-size: 2em;
+    font-size: 2.8em;
     letter-spacing: 0.1em;
     line-height: 0.9em;
     text-transform: uppercase;
@@ -1019,7 +1018,7 @@ footer {
 
 #post h2,
 #content_about h2 {
-    font-size: 1.5em;
+    font-size: 2em;
     text-transform: uppercase;
     color: #575757;
 }
@@ -1057,6 +1056,10 @@ h4 {
     color: #919191;
 }
 
+#post p {
+    padding-bottom: 2rem; /* some space after each paragraph */
+}
+
 #post p a,
 #content_about p a {
     font-weight: 700;
@@ -1064,6 +1067,49 @@ h4 {
 
 #post p a:hover,
 #content_about p a:hover {
+}
+
+/* Add list styling */
+#post ul,
+#content_about ul {
+    margin: 1rem 0;
+    padding-left: 2rem;
+    font-size: 1.6em;
+    letter-spacing: 1.2px;
+    line-height: 1.3em;
+    color: #919191;
+}
+
+#post ul {
+    padding-bottom: 2rem;
+}
+
+#post li,
+#content_about li {
+    margin-bottom: 0.5rem;
+    list-style-type: disc;
+}
+
+/* Add h3 styling */
+#post h3,
+#content_about h3 {
+    font-size: 1.8em;
+    text-transform: uppercase;
+    color: #575757;
+    margin-top: 1.5rem;
+    margin-bottom: 1rem;
+    font-weight: 600;
+}
+
+#post h3 a,
+#content_about h3 a {
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+#post h3 a:hover,
+#content_about h3 a:hover {
+    color: #6492a9;
 }
 
 #date,
