@@ -1,27 +1,22 @@
-const gulp = require('gulp');
-const {watch, series} = require('gulp');
-const concat_css = require('gulp-concat-css');
-const clean_css = require('gulp-clean-css');
+const gulp = require("gulp");
+const concat_css = require("gulp-concat-css");
+const clean_css = require("gulp-clean-css");
+const { watch, series } = require("gulp");
 
-function minify_css(f){
-     // Folder with files to minify
-     return gulp.src('_site/assets/**/*.css')
-        //The method pipe() allow you to chain multiple tasks together
-        //Bundle css files found in assets folder
-        .pipe(concat_css("core.css")) 
-        //Execute the task to minify the files
-        .pipe(clean_css())
-        //Define the destination of the minified files with the method dest
-        .pipe(gulp.dest('_site/css'));
-
-        f();
+// Minify and bundle CSS from _site/assets
+function minify_css() {
+  return gulp
+    .src("_site/assets/**/*.css")
+    .pipe(concat_css("core.css"))
+    .pipe(clean_css())
+    .pipe(gulp.dest("_site/css"));
 }
 
+// Watch original CSS source files in assets/
+function watch_css() {
+  return watch("assets/**/*.css", series(minify_css));
+}
 
 exports.minify_css = minify_css;
-
-//exports.default = series(minify_css, watch);
-exports.default = function() {
-    watch('assets/*.css', series(minify_css));
-}
-
+exports.watch = watch_css;
+exports.default = series(minify_css, watch_css);
